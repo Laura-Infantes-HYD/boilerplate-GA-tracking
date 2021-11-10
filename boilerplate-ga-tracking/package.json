@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "webpack --mode development --env development --watch",
     "dev:css": "webpack --mode development --env developmentCSS --watch",
-    "build": "webpack --mode production --env production"
+    "build": "webpack --mode production --env production",
+    "serve": "node server.js"
   },
   "author": "",
   "license": "ISC",
